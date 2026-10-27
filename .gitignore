@@ -1,0 +1,16 @@
+# Build outputs and tool cache
+/.tools/
+/dist/
+
+# Temporary files and logs
+/temp/
+/tmp/
+*.log
+*.partial
+*.tmp
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

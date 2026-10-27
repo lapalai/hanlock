@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>HanLock — switch between two languages</title>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="#101828"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+    <path d="M18 23H46L39 16M46 23L39 30" stroke="#73FBD3"/>
+    <path d="M46 41H18L25 34M18 41L25 48" stroke="#F6F8FC"/>
+  </g>
+</svg>
