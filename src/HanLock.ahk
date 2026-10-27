@@ -36,6 +36,8 @@ A_TrayMenu.Default := "HanLock 정보"
 *sc0F2 up::ReleaseCaps("sc0F2")
 
 PressCaps(key) {
+    ; Buffer subsequent hotkeys until this event's state change is complete.
+    Critical
     global PressedAt
     ; Auto-repeat must not restart the hold duration or cause another action.
     if !PressedAt.Has(key)
@@ -43,6 +45,7 @@ PressCaps(key) {
 }
 
 ReleaseCaps(key) {
+    Critical
     global PressedAt, HoldMilliseconds
     if !PressedAt.Has(key)
         return
